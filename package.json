@@ -20,6 +20,8 @@
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.12.4",
     "jest": "^24.7.0"
   },
   "dependencies": {
@@ -27,5 +29,5 @@
   },
   "jest": {
     "testRegex": "/test/.*.test.jsx?$"
- }
+  }
 }
