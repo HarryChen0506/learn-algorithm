@@ -15,7 +15,7 @@
   "plugins": [],
   "rules": {
 		"no-cond-assign": 0,
-		"no-console": 2,
+		"no-console": 0,
 		"no-alert": 2,
 		"no-irregular-whitespace": 2,
 		"no-unexpected-multiline": 2,
@@ -53,7 +53,8 @@
 		"quote-props": [2, "consistent"],
 		"quotes": [2, "single", {"allowTemplateLiterals": true}],
 		"semi-spacing": 2,
-		"semi": 0,
+		// "semi": 0,
+		"semi": [0, "always"],
 		"space-before-blocks": 2,
 		"space-before-function-paren": [2, "never"],
 		"spaced-comment": [2, "always"],
